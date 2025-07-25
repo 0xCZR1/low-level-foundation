@@ -24,7 +24,7 @@ short int binary_string_to_int(char *binary_string){
     }
     short int result = 0;
     for (int i = 0; i < len; i++) {
-    result = result * 2 + (binary_string[i] - '0');
+        result = result * 2 + (binary_string[i] - '0');
     }
 
     return result;
